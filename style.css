@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid grey;
+  padding: 20px;
+}
+
+.nav_bar > ul {
+  display: flex;
+}
+
+.nav_bar > ul > li {
+  padding-left: 15px;
+  list-style-type: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.res-card {
+  width: 200px;
+  /* height: 250px; */
+  padding: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  /* border: 2px solid red; */
+}
+
+.res-card > p {
+  padding-bottom: 10px;
+}
+
+.res-card:hover {
+  outline: 1px solid blue;
+  scale: 0.96;
+}
+
+.res-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 10px 0;
+}
+
+.res-card > img {
+  width: 100%;
+}
