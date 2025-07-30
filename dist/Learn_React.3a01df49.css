@@ -17,6 +17,7 @@ body {
 }
 
 .nav_bar > ul {
+  align-items: center;
   display: flex;
 }
 
@@ -27,8 +28,16 @@ body {
   list-style-type: none;
 }
 
+.header-btn {
+  cursor: pointer;
+  width: 70px;
+  margin-left: 10px;
+  padding: 5px;
+}
+
 .res-card {
   cursor: pointer;
+  background-color: #f0f0f0;
   width: 200px;
   padding: 5px;
   transition: all .2s ease-in;
@@ -53,5 +62,42 @@ body {
 
 .res-card > img {
   width: 100%;
+}
+
+.shimmer-container {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 15px;
+  margin: 20px 0;
+  display: flex;
+}
+
+.shimmer-card {
+  background-color: #f0f0f0;
+  width: 220px;
+  height: 400px;
+}
+
+.filter {
+  gap: 20px;
+  margin-top: 20px;
+  margin-left: 48px;
+  display: flex;
+}
+
+.filter > .top-rated-res {
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.filter > .search > input {
+  outline: none;
+  padding: 5px;
+}
+
+.filter > .search > .search-btn {
+  cursor: pointer;
+  margin-left: 5px;
+  padding: 5px;
 }
 /*# sourceMappingURL=Learn_React.3a01df49.css.map */
